@@ -14,7 +14,7 @@
 #include <winrt/Windows.Foundation.Numerics.h>
 
 #include "Async/Async.h"
-#include "Engine/Engine.h"
+//#include "Engine/Engine.h"
 
 #include "WindowsMixedRealityInteropUtility.h"
 

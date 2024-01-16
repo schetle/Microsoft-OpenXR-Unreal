@@ -8,6 +8,7 @@
 #include "ARTypes.h"
 #include "MicrosoftOpenXR.h"
 #include "ARTextures.h"
+#include "UObject/GCObject.h"
 
 #include "Windows/AllowWindowsPlatformTypes.h"
 #include "Windows/AllowWindowsPlatformAtomics.h"

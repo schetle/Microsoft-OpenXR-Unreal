@@ -6,7 +6,8 @@
 #include "SceneUnderstandingBase.h"
 
 #include "ARBlueprintLibrary.h"
-#include "Engine.h"
+//#include "Engine.h"
+#include "Async/Async.h"
 #include "IOpenXRARModule.h"
 #include "IOpenXRARTrackedGeometryHolder.h"
 #include "IXRTrackingSystem.h"
