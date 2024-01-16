@@ -23,13 +23,14 @@ public class MicrosoftOpenXR : ModuleRules
 		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 		PrivatePCHHeaderFile = @"Private\OpenXRCommon.h";
 
+/*
 		PrivateIncludePaths.AddRange(
 			new string[] {
 				// This private include path ensures our newer copy of the openxr headers take precedence over the engine's copy.
 				"MicrosoftOpenXR/Private/External"
 			}
 			);
-
+*/		
 		PrivateDependencyModuleNames.AddRange(
 			new string[]
 			{

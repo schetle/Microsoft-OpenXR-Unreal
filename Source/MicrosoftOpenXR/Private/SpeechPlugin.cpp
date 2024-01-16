@@ -9,7 +9,9 @@
 
 #if PLATFORM_WINDOWS || PLATFORM_HOLOLENS
 
-#include "Engine\Engine.h"
+//#include "Engine\Engine.h"
+#include "Engine/Engine.h"
+#include "Engine/GameInstance.h"
 #include "GameDelegates.h"
 
 using namespace winrt::Windows::Media::SpeechRecognition;

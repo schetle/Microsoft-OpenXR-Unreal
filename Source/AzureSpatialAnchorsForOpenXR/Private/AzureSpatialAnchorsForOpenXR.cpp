@@ -10,7 +10,7 @@
 #include "OpenXRCore.h"
 #include "MicrosoftOpenXR.h"
 
-#include "Engine.h"
+//#include "Engine.h"
 #include "SpatialAnchorPlugin.h"
 
 using namespace winrt::Microsoft::Azure::SpatialAnchors;

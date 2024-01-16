@@ -4,7 +4,7 @@
 #pragma once
 
 #include "ARBlueprintLibrary.h"
-#include "Engine.h"
+//#include "Engine.h"
 #include "IOpenXRARModule.h"
 #include "IOpenXRARTrackedGeometryHolder.h"
 #include "IXRTrackingSystem.h"

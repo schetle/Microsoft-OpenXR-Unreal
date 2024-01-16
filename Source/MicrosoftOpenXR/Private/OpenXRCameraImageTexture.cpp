@@ -2,6 +2,7 @@
 // Licensed under the MIT License.
 
 #include "OpenXRCameraImageTexture.h"
+#include "TextureResource.h"
 #include "GlobalShader.h"
 #include "RenderUtils.h"
 #include "RHIStaticStates.h"

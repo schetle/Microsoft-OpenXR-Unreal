@@ -35,7 +35,7 @@ public class NuGetModule : ModuleRules
 			string NugetFolder = Path.Combine(PluginDirectory, "Intermediate", "Nuget", MyModuleName);
 			Directory.CreateDirectory(NugetFolder);
 
-			string BinariesSubFolder = Path.Combine("Binaries", "ThirdParty", Target.Type.ToString(), Target.Platform.ToString(), Target.Architecture);
+			string BinariesSubFolder = Path.Combine("Binaries", "ThirdParty", Target.Type.ToString(), Target.Platform.ToString(), Target.Architecture.ToString());
 
 			PublicDefinitions.Add(string.Format("THIRDPARTY_BINARY_SUBFOLDER=\"{0}\"", BinariesSubFolder.Replace(@"\", @"\\")));
 

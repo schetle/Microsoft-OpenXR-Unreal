@@ -62,9 +62,9 @@ namespace UnrealBuildTool.Rules
 			);
 
 			string OpenXRPluginIncludePath = Path.Combine(PluginDirectory, "Source", "MicrosoftOpenXR", "Private");
-			string OpenXRPrivateIncludePath = Path.Combine(PluginDirectory, "Source", "MicrosoftOpenXR", "Private", "External");
+			//string OpenXRPrivateIncludePath = Path.Combine(PluginDirectory, "Source", "MicrosoftOpenXR", "Private", "External");
 			PrivateIncludePaths.Add(OpenXRPluginIncludePath);
-			PrivateIncludePaths.Add(OpenXRPrivateIncludePath);
+			//PrivateIncludePaths.Add(OpenXRPrivateIncludePath);
 		}
 	}
 }
