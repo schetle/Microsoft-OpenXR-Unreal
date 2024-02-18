@@ -3,6 +3,8 @@
 
 #include "AzureObjectAnchorsPlugin.h"
 
+#include "IXRTrackingSystem.h"
+
 #if PLATFORM_WINDOWS || PLATFORM_HOLOLENS
 
 #include "Interfaces/IPluginManager.h"
@@ -584,8 +586,7 @@ namespace MicrosoftOpenXR
 		TSharedPtr<FARSupportInterface, ESPMode::ThreadSafe> ARSystem = ARCompositionComponent;
 		if (ARSystem == nullptr)
 		{
-			ARSystem = TSharedPtr<FARSupportInterface, ESPMode::ThreadSafe>{
-				StaticCastSharedPtr<FXRTrackingSystemBase>(GEngine->XRSystem)->GetARCompositionComponent() };
+			ARSystem = GEngine->XRSystem->GetARCompositionComponent();
 		}
 
 		TArray<FARTraceResult> Results;

@@ -10,14 +10,12 @@
 	"DocsURL": "",
 	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/ef8930ca860148c498b46887da196239",
 	"SupportURL": "https://github.com/microsoft/Microsoft-OpenXR-Unreal",
-	"EngineVersion": "5.2.0",
 	"CanContainContent": true,
 	"IsBetaVersion": false,
 	"IsExperimentalVersion": false,
 	"Installed": false,
 	"SupportedTargetPlatforms": [
-		"Win64",
-		"HoloLens"
+		"Win64"
 	],
 	"Modules": [
 		{
@@ -25,8 +23,7 @@
 			"Type": "Runtime",
 			"LoadingPhase": "PostConfigInit",
 			"WhitelistPlatforms": [
-				"Win64",
-				"HoloLens"
+				"Win64"
 			]
 		},
 		{
@@ -39,8 +36,7 @@
 			"Type": "Runtime",
 			"LoadingPhase": "PostConfigInit",
 			"WhitelistPlatforms": [
-				"Win64",
-				"HoloLens"
+				"Win64"
 			]
 		},
 		{
@@ -55,8 +51,7 @@
 			"Name": "AzureSpatialAnchorsForOpenXR",
 			"Type": "Runtime",
 			"WhitelistPlatforms": [
-				"Win64",
-				"HoloLens"
+				"Win64"
 			]
 		}
 	],
@@ -85,8 +80,7 @@
 			"Name": "AzureSpatialAnchors",
 			"Enabled": true,
 			"WhitelistPlatforms": [
-				"Win64",
-				"HoloLens"
+				"Win64"
 			]
 		}
 	]

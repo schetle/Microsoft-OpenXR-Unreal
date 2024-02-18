@@ -22,7 +22,7 @@ public class NuGetModule : ModuleRules
 		);
 
 		// WinRT with Nuget support
-		if (Target.Platform == UnrealTargetPlatform.Win64 || Target.Platform == UnrealTargetPlatform.HoloLens)
+		if (Target.Platform == UnrealTargetPlatform.Win64)
 		{
 			// these parameters mandatory for winrt support
 			bEnableExceptions = true;
